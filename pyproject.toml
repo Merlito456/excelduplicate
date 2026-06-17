@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "excelduplicate"
+version = "1.0.0"
+description = "Duplicate Project Detector"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+    "streamlit>=1.28.1",
+    "pandas>=2.0.0",
+    "plotly>=5.18.0",
+    "openpyxl>=3.1.0",
+]
